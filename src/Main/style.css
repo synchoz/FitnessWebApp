@@ -1,0 +1,12 @@
+.headerImage {
+    /* background-image: url('./topMainImage.jpg'); */
+    background-size: cover;
+    height: 37%;
+    background-color: white;
+}
+
+.bottomHeaderInfo {
+    top:25%;
+    margin-left: 20px;
+    width: 30%;
+}

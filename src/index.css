@@ -18,4 +18,5 @@ code {
 
 .page {
   height: 1200px;
+  min-width: 360px;
 }

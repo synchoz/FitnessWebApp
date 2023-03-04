@@ -60,11 +60,16 @@ export default function Main() {
                 </div>
             </div>
             <div className='subMainSectionInfo bg-slate-300 border-t-[3px]'>
-                <div className='subMainSectionHeader'>
-                    <div className='mt-[40px]'>
-                        <div className='w-3/4 m-auto font-bold'>Title</div>
+                <div className='w-1/2 mt-[40px]'>
+                    <div className='w-3/4 m-auto font-bold'>Title</div>
+                </div>
+                <div className='subMainSectionHeader w-1/2 float-left'>
+                    <div className=''>
                         <div className='w-3/4 m-auto mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div>
                     </div>
+                </div>
+                <div className='subMainSectionHeader w-1/2 float-right'>
+                    <div className='imgSubHeaderInfo'></div>
                 </div>
             </div>
         </div>

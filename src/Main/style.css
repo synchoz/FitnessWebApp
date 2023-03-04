@@ -50,3 +50,13 @@
     background-image: url('./chat247.png');
     background-size: cover;
 }
+
+.imgSubHeaderInfo {
+    background-image: url('./pngimg.com\ -\ fitness_PNG141.png');
+    background-size: cover;
+    height: 100%;
+}
+
+.infoImg {
+    height: 320px;
+}

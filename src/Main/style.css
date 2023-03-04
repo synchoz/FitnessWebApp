@@ -29,3 +29,24 @@
 .subMainSectionInfo {
     height: 400px;
 }
+
+.imgLogging {
+    background-image: url('./loggingimage.jpg');
+    background-size: cover;
+}
+
+
+.imgDietLogging {
+    background-image: url('./dietLogging.avif');
+    background-size: cover;
+}
+
+.imgPersonalTrainig {
+    background-image: url('./personalTraining.avif');
+    background-size: cover;
+}
+
+.imgOpenTwentyFourSeven {
+    background-image: url('./chat247.png');
+    background-size: cover;
+}

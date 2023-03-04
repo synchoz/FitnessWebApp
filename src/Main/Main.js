@@ -23,7 +23,7 @@ export default function Main() {
                 {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 */}
                     <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
                         <div className='infoImageSection h-32 flex justify-center items-center py-1'>
-                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5'></div>
+                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgLogging'></div>
                         </div>
                         <div className='infoText'>
                             <div className='font-bold'>Weight Logging</div>
@@ -32,28 +32,28 @@ export default function Main() {
                     </div>
                     <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
                         <div className='infoImageSection h-32 flex justify-center items-center py-1'>
-                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5'></div>
+                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgDietLogging'></div>
                         </div>
                         <div className='infoText'>
-                            <div className='font-bold'>Weight Logging</div>
+                            <div className='font-bold'>Nutrition Tracking/Planing</div>
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>
                     <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
                         <div className='infoImageSection h-32 flex justify-center items-center py-1'>
-                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5'></div>
+                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgPersonalTrainig'></div>
                         </div>
                         <div className='infoText'>
-                            <div className='font-bold'>Weight Logging</div>
+                            <div className='font-bold'>Personal Training</div>
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>
                     <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
                         <div className='infoImageSection h-32 flex justify-center items-center py-1'>
-                            <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5'></div>
+                            <div className='infoImage rounded-full border-black border h-full w-2/5 imgOpenTwentyFourSeven'></div>
                         </div>
                         <div className='infoText'>
-                            <div className='font-bold'>Weight Logging</div>
+                            <div className='font-bold'>Open 24/7</div>
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>

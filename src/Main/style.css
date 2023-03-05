@@ -13,7 +13,7 @@
 }
 
 .mainSectionInfo {
-    height: 300px;
+    min-height: 250px;
 }
 
 .InfoPart {
@@ -27,7 +27,7 @@
 }
 
 .subMainSectionInfo {
-    height: 400px;
+    min-height: 400px;
 }
 
 .imgLogging {
@@ -54,6 +54,7 @@
 .imgSubHeaderInfo {
     background-image: url('./pngimg.com\ -\ fitness_PNG141.png');
     background-size: cover;
+    background-position-y: 5%;
     height: 100%;
 }
 
@@ -66,4 +67,18 @@
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 45px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.iconPartReview {
+    background-image: url('./review.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
 }

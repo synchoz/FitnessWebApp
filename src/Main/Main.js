@@ -17,7 +17,7 @@ export default function Main() {
 
                 </div> */}
             </div>
-            <div className='mainSectionInfo bg-white border-t-[3px]'>
+            <div className='mainSectionInfo bg-white border-t-[3px] inline-block'>
                 {/* <div className='infoSection grid sm:max-2xl:grid-cols-4 sm:grid-cols-2 gap-4 h-full'> */}
                 <div className='infoSection grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 h-full'>
                 {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 */}
@@ -59,22 +59,62 @@ export default function Main() {
                     </div>
                 </div>
             </div>
-            <div className='subMainSectionInfo bg-slate-300 border-t-[3px]'>
+            <div className='subMainSectionInfo bg-slate-300 border-t-[3px] inline-block'>
                 <div className='w-1/2 mt-[40px]'>
                     <div className='w-3/4 m-auto font-bold'>Title</div>
                 </div>
                 <div className='subMainSectionHeader w-1/2 float-left'>
                     <div className='w-3/4 m-auto '>
                         <div className='mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div>
-                        <div className='mt-[20px]'>
-                            <div className='firstTitleIcon float-left w-1/6'>&#160;</div>
-                            <div className='font-bold w-5/6 float-right'>First Title</div>
+                        <div className='clearfix mt-[40px]'>
+                            <div className='w-1/6 float-left'>
+                                <div className='firstTitleIcon w-full float-left '>&#160;</div>
+                            </div>
+                            <div className='w-5/6 float-right'>
+                                <div className='font-bold'>First Title</div>
+                                <div className=''>Lorem ipsum asdad asd asd asd asd asd as</div>
+                            </div>
                         </div>
-                        <div className='w-5/6 float-right'>Lorem ipsum asdad asd asd asd asd asd as</div>
+                        <div className='clearfix mt-[40px]'>
+                            <div className='w-1/6 float-left'>
+                                <div className='firstTitleIcon w-full float-left '>&#160;</div>
+                            </div>
+                            <div className='w-5/6 float-right'>
+                                <div className='font-bold'>First Title</div>
+                                <div className=''>Lorem ipsum asdad asd asd asd asd asd as</div>
+                            </div>
+                        </div>
+                        <div className='clearfix mt-[40px]'>
+                            <div className='w-1/6 float-left'>
+                                <div className='firstTitleIcon w-full float-left '>&#160;</div>
+                            </div>
+                            <div className='w-5/6 float-right'>
+                                <div className='font-bold'>First Title</div>
+                                <div className=''>Lorem ipsum asdad asd asd asd asd asd as</div>
+                            </div>
+                        </div>
+                        <div className='clearfix mt-[40px]'>
+                            <div className='w-1/6 float-left'>
+                                <div className='firstTitleIcon w-full float-left '>&#160;</div>
+                            </div>
+                            <div className='w-5/6 float-right'>
+                                <div className='font-bold'>First Title</div>
+                                <div className=''>Lorem ipsum asdad asd asd asd asd asd as</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className='subMainSectionHeader w-1/2 float-right'>
+                <div className='subMainSectionHeader w-1/2 float-right h-3/4'>
                     <div className='imgSubHeaderInfo'></div>
+                </div>
+                <div className='reviewSection'>
+                    <div className='iconPartReview w-1/6'>
+                        
+                    </div>
+                    <div className='reviewData w-5/6'>
+                        <div>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</div>
+                    </div>
+
                 </div>
             </div>
         </div>

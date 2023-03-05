@@ -60,3 +60,10 @@
 .infoImg {
     height: 320px;
 }
+
+.firstTitleIcon {
+    background-image: url('./coaching.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

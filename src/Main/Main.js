@@ -64,8 +64,13 @@ export default function Main() {
                     <div className='w-3/4 m-auto font-bold'>Title</div>
                 </div>
                 <div className='subMainSectionHeader w-1/2 float-left'>
-                    <div className=''>
-                        <div className='w-3/4 m-auto mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div>
+                    <div className='w-3/4 m-auto '>
+                        <div className='mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div>
+                        <div className='mt-[20px]'>
+                            <div className='firstTitleIcon float-left w-1/6'>&#160;</div>
+                            <div className='font-bold w-5/6 float-right'>First Title</div>
+                        </div>
+                        <div className='w-5/6 float-right'>Lorem ipsum asdad asd asd asd asd asd as</div>
                     </div>
                 </div>
                 <div className='subMainSectionHeader w-1/2 float-right'>

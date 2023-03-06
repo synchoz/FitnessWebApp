@@ -16,8 +16,9 @@
     min-height: 250px;
 }
 
-.InfoPart {
-}
+.subMainSectionHeaderRight {
+    height: 400px;
+} 
 
 .infoImage {
     width: 100px;
@@ -52,7 +53,8 @@
 }
 
 .imgSubHeaderInfo {
-    background-image: url('./pngimg.com\ -\ fitness_PNG141.png');
+    /* background-image: url('./pngimg.com\ -\ fitness_PNG141.png'); */
+    background-color: aqua;
     background-size: cover;
     background-position-y: 5%;
     height: 100%;
@@ -81,4 +83,13 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
+    height: 45px;
+}
+
+.contactSection {
+    min-height: 50px;
+}
+
+input {
+    padding: 0 7px;
 }

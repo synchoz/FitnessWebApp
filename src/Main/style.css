@@ -1,19 +1,16 @@
 .headerImage {
     /* background-image: url('./topMainImage.jpg'); */
     background-size: cover;
-    height: 400px;
+    height: 600px;
     background-color: grey;
 }
 
 .bottomHeaderInfo {
-    position: relative;
     top:25%;
-    margin-left: 20px;
-    width: 30%;
 }
 
 .mainSectionInfo {
-    min-height: 250px;
+
 }
 
 .subMainSectionHeaderRight {
@@ -66,10 +63,6 @@
 
 .firstTitleIcon {
     background-image: url('./coaching.png');
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 45px;
 }
 
 .clearfix::after {
@@ -80,6 +73,21 @@
 
 .iconPartReview {
     background-image: url('./review.png');
+}
+
+.iconPhone {
+    background-image: url('./telephone.png');
+}
+
+.iconAddress {
+    background-image: url('./location.png');
+}
+
+.iconEmail {
+    background-image: url('./email\ \(1\).png');
+}
+
+.iconGen {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -92,4 +100,22 @@
 
 input {
     padding: 0 7px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+.antonFont {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.openSansFont{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.getStartedBtn {
+    min-width: 140px;
 }

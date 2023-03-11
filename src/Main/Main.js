@@ -5,11 +5,11 @@ import Navbar from '../Navigation/Navbar'
 export default function Main() {
     return (
         <div>
-            <div className='headerImage'>
+            <div className='headerImage inline-block h-full w-full'>
                 <Navbar />
-                <div className="bottomHeaderInfo relative w-1/2 m-auto">
+                <div className="bottomHeaderInfo w-1/2 m-auto relative">
                     <div className='antonFont text-white text-center'>
-                        <div className="text-[65px]">NO PAIN NO GAIN</div>
+                        <div className="text-[30px] sm:text-[40px] md:text-[60px] relative bottomHeaderInfo w-full">NO PAIN NO GAIN</div>
                         <p className='openSansFont text-[17px]'>Having a perfect body requires a lot of training.Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.</p>
                     </div>
                     <div className='getStartedDiv'>
@@ -20,9 +20,46 @@ export default function Main() {
 
                 </div> */}
             </div>
-            <div className='mainSectionInfo bg-white border-t-[3px] inline-block'>
+            <div className='newSubMainSection h-[40rem] bg-slate-900'>
+                <div className='infoSection w-3/4 m-auto pt-28'>
+                    <div className='text-center'>
+                        <div className='subMainSectionTitle mb-5 text-white fontPoppins text-xl'>
+                            What We Offer
+                        </div>
+                        <hr className='sectionSeperator w-[50px] m-auto border-t-2'></hr>
+                    </div>
+                    <div className='infoSectionTitles mt-28 grid lg:grid-cols-4 gap-4 md:grid-cols-2'>
+                        <div class="image-with-text relative h-60">
+                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                            Web Application
+                            </div>
+                        </div>
+                        <div class="image-with-text relative h-60">
+                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                            Web Application
+                            </div>
+                        </div>
+                        <div class="image-with-text relative h-60">
+                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                            Web Application
+                            </div>
+                        </div>
+                        <div class="image-with-text relative h-60">
+                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                            Web Application
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className='mainSectionInfo bg-[#1b1d1f] border-t-[3px] inline-block text-white'>
                 {/* <div className='infoSection grid sm:max-2xl:grid-cols-4 sm:grid-cols-2 gap-4 h-full'> */}
-                <div className='infoSection grid grid-cols-2 md:grid-cols-4 gap-4 h-full py-3'>
+                <div className='infoSection grid grid-cols-2 md:grid-cols-4 gap-4 py-3'>
                 {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 */}
                     <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
                         <div className='infoImageSection flex justify-center items-center py-1 mb-2'>

@@ -20,36 +20,36 @@ export default function Main() {
 
                 </div> */}
             </div>
-            <div className='newSubMainSection h-[40rem] bg-slate-900'>
+            <div className='newSubMainSection bg-slate-900 h-auto pb-20'> {/* h-[40rem]  */}
                 <div className='infoSection w-3/4 m-auto pt-28'>
                     <div className='text-center'>
-                        <div className='subMainSectionTitle mb-5 text-white fontPoppins text-xl'>
+                        <div className='subMainSectionTitle mb-5 text-white fontPoppins text-2xl'>
                             What We Offer
                         </div>
-                        <hr className='sectionSeperator w-[50px] m-auto border-t-2'></hr>
+                        <hr className='sectionSeperator w-[50px] m-auto border-t-2 border-red-500'></hr>
                     </div>
-                    <div className='infoSectionTitles mt-28 grid lg:grid-cols-4 gap-4 md:grid-cols-2'>
-                        <div class="image-with-text relative h-60">
-                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
-                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                    <div className='infoSectionTitles mt-28 grid sm:grid-cols-2 xl:grid-cols-4 gap-6'>
+                        <div className="image-with-text relative h-60 rounded-lg">
+                            <div className="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div className="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-2xl opacity-100 transition-opacity duration-500 text-center">
                             Web Application
                             </div>
                         </div>
-                        <div class="image-with-text relative h-60">
-                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
-                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                        <div className="image-with-text relative h-60 rounded-lg">
+                            <div className="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div className="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-2xl opacity-100 transition-opacity duration-500 text-center">
                             Web Application
                             </div>
                         </div>
-                        <div class="image-with-text relative h-60">
-                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
-                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                        <div className="image-with-text relative h-60 rounded-lg">
+                            <div className="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div className="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-2xl opacity-100 transition-opacity duration-500 text-center">
                             Web Application
                             </div>
                         </div>
-                        <div class="image-with-text relative h-60">
-                            <div class="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 rounded-lg object-cover transition-transform duration-500 hover:scale-105"></div>
-                            <div class="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-lg opacity-100 transition-opacity duration-500">
+                        <div className="image-with-text relative h-60 rounded-lg">
+                            <div className="image-overlay absolute inset-0 partInfoSection opacity-50 transition-opacity duration-500 object-cover transition-transform duration-500 hover:scale-105"></div>
+                            <div className="text-overlay absolute inset-0 flex justify-center items-center text-white font-bold text-2xl opacity-100 transition-opacity duration-500 text-center">
                             Web Application
                             </div>
                         </div>
@@ -57,11 +57,9 @@ export default function Main() {
                 </div>
 
             </div>
-            <div className='mainSectionInfo bg-[#1b1d1f] border-t-[3px] inline-block text-white'>
-                {/* <div className='infoSection grid sm:max-2xl:grid-cols-4 sm:grid-cols-2 gap-4 h-full'> */}
+{/*             <div className='mainSectionInfo bg-[#1b1d1f] border-t-[3px] inline-block text-white'>
                 <div className='infoSection grid grid-cols-2 md:grid-cols-4 gap-4 py-3'>
-                {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 */}
-                    <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
+                    <div className='InfoPart text-center col-span-1 m-auto'>
                         <div className='infoImageSection flex justify-center items-center py-1 mb-2'>
                             <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgLogging'></div>
                         </div>
@@ -70,7 +68,7 @@ export default function Main() {
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>
-                    <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
+                    <div className='InfoPart text-center col-span-1 m-auto'>
                         <div className='infoImageSection flex justify-center items-center py-1 mb-2'>
                             <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgDietLogging'></div>
                         </div>
@@ -79,7 +77,7 @@ export default function Main() {
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>
-                    <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
+                    <div className='InfoPart text-center col-span-1 m-auto'>
                         <div className='infoImageSection flex justify-center items-center py-1 mb-2'>
                             <div className='infoImage rounded-full border-black border bg-red-500 h-full w-2/5 imgPersonalTrainig'></div>
                         </div>
@@ -88,7 +86,7 @@ export default function Main() {
                             <div>This app offers extensive weight logging including dates reps etc...</div>
                         </div>
                     </div>
-                    <div className='InfoPart text-center col-span-1 m-auto'>{/* change it later for a component! */}
+                    <div className='InfoPart text-center col-span-1 m-auto'>
                         <div className='infoImageSection flex justify-center items-center py-1 mb-2'>
                             <div className='infoImage rounded-full border-black border h-full w-2/5 imgOpenTwentyFourSeven'></div>
                         </div>
@@ -98,14 +96,22 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='bg-slate-300 border-t-[3px] inline-block'>
-                <div className='SubMainSectionHeaderPart1 flex'>
-                    <div className='w-1/2 mt-[40px] subMainSectionHeadera w-1/2 float-left'>
-                        <div className='font-bold'>Title</div>
+                <div className='infoSection w-3/4 m-auto pt-28'>
+                    <div className='text-center'>
+                        <div className='subMainSectionTitle mb-5 text-black fontPoppins text-2xl'>
+                            Why Us?
+                        </div>
+                        <hr className='sectionSeperator w-[50px] m-auto border-t-2 border-red-500'></hr>
+                    </div>
+                </div>
+                <div className='px-10 SubMainSectionHeaderPart1 grid sm:grid-cols-2 mt-28'>
+                    <div className='subMainSectionHeadera'>
+                        {/* <div className='font-bold'>Title</div> */}
                         <div className=''>
-                            <div className='mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div>
-                            <div className='clearfix mt-[40px]'>
+                            {/* <div className='mt-2'>ext ever sier took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</div> */}
+                            <div className='clearfix'>
                                 <div className='w-1/6 float-left'>
                                     <div className='firstTitleIcon iconGen w-full float-left '>&#160;</div>
                                 </div>
@@ -143,7 +149,7 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                    <div className='subMainSectionHeader w-1/2 float-right h-3/4 subMainSectionHeaderRight '>
+                    <div className='subMainSectionHeader h-3/4 subMainSectionHeaderRight'>
                         <div className='imgSubHeaderInfo'></div>
                     </div>
                 </div>

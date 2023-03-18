@@ -1,8 +1,9 @@
-.headerImage {
-    /* background-image: url('./topMainImage.jpg'); */
-    background-size: cover;
+.headerWrapper {
     height: 700px;
-    background-color: grey;
+}
+
+.headerImage {
+    background-image: url('./topMainImage.jpg');
 }
 
 .bottomHeaderInfo {
@@ -30,28 +31,25 @@
 
 .imgLogging {
     background-image: url('./loggingimage.jpg');
-    background-size: cover;
 }
 
 
 .imgDietLogging {
     background-image: url('./dietLogging.avif');
-    background-size: cover;
 }
 
 .imgPersonalTrainig {
     background-image: url('./personalTraining.avif');
-    background-size: cover;
 }
 
 .imgOpenTwentyFourSeven {
-    background-image: url('./chat247.png');
-    background-size: cover;
+    background-image: url('./247Sign.jpg');
+
 }
 
+
 .imgSubHeaderInfo {
-    /* background-image: url('./pngimg.com\ -\ fitness_PNG141.png'); */
-    background-color: aqua;
+    background-image: url('./pngimg.com\ -\ fitness_PNG141.png');
     background-size: cover;
     background-position-y: 5%;
     height: 100%;
@@ -69,6 +67,14 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.iconTrainingProgram {
+    background-image: url('./trainingIcon.png');
+}
+
+.iconAvailability {
+    background-image: url('./24-hours.png');
 }
 
 .iconPartReview {
@@ -91,15 +97,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-    height: 45px;
 }
 
-.partInfoSection {
-    cursor: pointer;
-    background-image: url('./dietLogging.avif');
-    background-color: #f2f2f2;
-    background-size: cover;
+.iconTwentyFourSeven {
+    background-image: url('./247chaticon.png');
 }
+
 
 .contactSection {
     min-height: 50px;
@@ -143,3 +146,12 @@ input[type=submit] {
 .image-with-text {
     overflow: hidden;
 }  
+
+.iconAddress.iconGen {
+    height: 25px;
+    background-position: center;
+}
+
+.iconHeight45 {
+    height: 45px;
+}

@@ -3,7 +3,7 @@
 }
 
 .headerImage {
-    background-image: url('./topMainImage.jpg');
+    background-image: url('./images/topMainImage.jpg');
 }
 
 .bottomHeaderInfo {
@@ -30,26 +30,26 @@
 }
 
 .imgLogging {
-    background-image: url('./loggingimage.jpg');
+    background-image: url('./images/loggingimage.jpg');
 }
 
 
 .imgDietLogging {
-    background-image: url('./dietLogging.avif');
+    background-image: url('./images/dietLogging.avif');
 }
 
 .imgPersonalTrainig {
-    background-image: url('./personalTraining.avif');
+    background-image: url('./images/personalTraining.avif');
 }
 
 .imgOpenTwentyFourSeven {
-    background-image: url('./247Sign.jpg');
+    background-image: url('./images/247Sign.jpg');
 
 }
 
 
 .imgSubHeaderInfo {
-    background-image: url('./pngimg.com\ -\ fitness_PNG141.png');
+    background-image: url('./images/pngimg.com\ -\ fitness_PNG141.png');
     background-size: cover;
     background-position-y: 5%;
     height: 100%;
@@ -60,7 +60,7 @@
 }
 
 .firstTitleIcon {
-    background-image: url('./coaching.png');
+    background-image: url('./images/coaching.png');
 }
 
 .clearfix::after {
@@ -70,27 +70,27 @@
 }
 
 .iconTrainingProgram {
-    background-image: url('./trainingIcon.png');
+    background-image: url('./images/trainingIcon.png');
 }
 
 .iconAvailability {
-    background-image: url('./24-hours.png');
+    background-image: url('./images/24-hours.png');
 }
 
 .iconPartReview {
-    background-image: url('./review.png');
+    background-image: url('./images/review.png');
 }
 
 .iconPhone {
-    background-image: url('./telephone.png');
+    background-image: url('./images/telephone.png');
 }
 
 .iconAddress {
-    background-image: url('./location.png');
+    background-image: url('./images/location.png');
 }
 
 .iconEmail {
-    background-image: url('./email\ \(1\).png');
+    background-image: url('./images/email\ \(1\).png');
 }
 
 .iconGen {
@@ -100,7 +100,7 @@
 }
 
 .iconTwentyFourSeven {
-    background-image: url('./247chaticon.png');
+    background-image: url('./images/247chaticon.png');
 }
 
 

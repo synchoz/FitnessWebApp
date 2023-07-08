@@ -1,6 +1,6 @@
 import react from 'react';
 import "./style.css"
-import Navbar from '../Navigation/Navbar'
+//import Navbar from '../Navigation/NavbarMain'
 import Service from './components/service/service';
 import ImageTextSection from './components/ImageTextSection/ImageTextSection';
 

@@ -18,12 +18,16 @@ This application is a dynamic, user-friendly web fitness dashboard built using R
 
 - **User Authentication and Protected Routes**: The application ensures certain features are only accessible to authenticated users, enhancing security and personalization. Unauthenticated users trying to access these features will be redirected to a login page.
 
-## Technologies Used
+## Tech Stack
 
-- **React.js**: The primary library used for building the user interface.
-- **React Router DOM**: Used for managing routing and navigation within the app.
-- **Headless UI**: Used for creating the UI components.
-- **Heroicons**: Used for adding SVG icons to the UI.
+This application uses the following technologies:
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [React Router DOM](https://reactrouter.com/): Declarative routing for React.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom user interfaces.
+- [Headless UI](https://headlessui.dev/): Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+- [Heroicons](https://heroicons.com/): A set of free MIT-licensed high-quality SVG icons for UI development.
+
 
 ## Installation
 
